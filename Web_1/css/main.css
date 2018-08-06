@@ -1,0 +1,22 @@
+﻿body {
+    background-color: white;
+    line-height: 200%;
+}
+.label{
+    display:block;
+    margin: -5px 0 0 5px;
+    width: 7em;
+}
+.textbox {
+    left: 50px;
+    margin-left: -100px;
+    top: 50%;
+    margin-top: -50px;
+    height: 100px;
+    width: 200px;
+    line-height: 200%;
+}
+form {
+    margin-bottom: 20px;
+    line-height: 200%;
+}
