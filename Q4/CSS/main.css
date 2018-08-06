@@ -1,0 +1,15 @@
+﻿body {
+    padding: 50px;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+p{
+    padding: 5px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

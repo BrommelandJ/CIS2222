@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="CSS/main.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="row">
+        <div class="column">
+            
+            <main>
+                <h2>Column 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sagittis vestibulum ex. Morbi gravida venenatis risus, nec faucibus massa tincidunt vitae. Quisque id est pharetra, mollis metus at, ultricies nibh. Phasellus eu neque non orci suscipit maximus quis eget augue. Nulla in purus neque. Quisque vestibulum mauris hendrerit dolor ornare, quis suscipit urna iaculis. In iaculis in lectus sit amet ultrices. Phasellus a massa leo. Nullam tempus nisi massa, sit amet ultrices ante fringilla et.</p>
+                </main>
+              
+        </div>
+        <form id="form1" runat="server">
+            <article class="place">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+            </article>
+        </form>
+       </div>
+    
+</body>
+</html>
